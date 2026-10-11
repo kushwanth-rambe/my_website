@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f5f7">
+<meta name="description" content="Kushwanth R — Product Manager focused on AI product strategy, digital transformation, customer-centric products, and measurable outcomes.">
+<title>Kushwanth R — Product Manager</title>
+<style>
+:root{--bg:#f5f5f7;--surface:#fff;--ink:#1d1d1f;--muted:#6e6e73;--blue:#06c;--line:rgba(0,0,0,.09);--dark:#101114;--max:1120px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:86px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",sans-serif;letter-spacing:-.018em;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.nav{position:sticky;top:0;z-index:10;background:rgba(250,250,252,.82);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:var(--max);margin:auto;padding:0 24px;height:54px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:15px;font-weight:650;color:var(--ink);letter-spacing:-.03em}.nav-links{display:flex;gap:24px;font-size:12px}.nav-links a{color:#424245}
+main{overflow:hidden}.wrap{width:min(var(--max),calc(100% - 48px));margin:0 auto}
+.hero{padding:100px 0 90px;text-align:center;background:radial-gradient(ellipse at 50% 15%,#fff 0%,#f5f5f7 68%)}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:650;color:var(--muted)}
+.hero h1{font-size:clamp(48px,8vw,92px);line-height:.98;letter-spacing:-.075em;margin:18px auto 22px;font-weight:700;max-width:900px}
+.hero h1 span{background:linear-gradient(100deg,#111 20%,#777 60%,#06c 100%);color:transparent;background-clip:text;-webkit-background-clip:text}
+.lede{font-size:clamp(19px,2.5vw,27px);line-height:1.35;letter-spacing:-.04em;color:#515154;max-width:760px;margin:0 auto 30px}
+.hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:28px 0 48px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:11px 20px;font-size:15px;font-weight:550;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);text-decoration:none}.primary{background:var(--blue);color:#fff}.primary:hover{background:#0077ed}.secondary{border:1px solid #b8b8bd;color:var(--blue);background:transparent}
+.hero-panel{max-width:900px;margin:auto;border-radius:28px;background:linear-gradient(135deg,#17191e,#2c3038 55%,#172d49);color:#fff;padding:38px 42px;text-align:left;box-shadow:0 24px 70px rgba(0,0,0,.13);position:relative;overflow:hidden}
+.hero-panel:after{content:"";position:absolute;width:300px;height:300px;right:-70px;top:-120px;border-radius:50%;background:radial-gradient(circle,#5a9cff88,transparent 68%);pointer-events:none}
+.panel-top{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:#b7c5dc}.hero-panel h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.05em;line-height:1.12;max-width:650px;margin:15px 0}.hero-panel p{max-width:670px;color:#d0d5df;font-size:17px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}.stat{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);padding:17px;border-radius:17px}.stat strong{display:block;font-size:25px;letter-spacing:-.05em}.stat span{font-size:12px;color:#c3c8d2}
+section{padding:78px 0}.section-head{text-align:center;max-width:750px;margin:0 auto 38px}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--blue);font-weight:700}.section-head h2{font-size:clamp(34px,5vw,54px);line-height:1.05;letter-spacing:-.065em;margin:10px 0 14px}.section-head p{font-size:18px;color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--surface);border-radius:23px;padding:27px;border:1px solid rgba(0,0,0,.035);box-shadow:0 5px 20px rgba(0,0,0,.025)}.card .icon{width:44px;height:44px;display:grid;place-items:center;border-radius:13px;background:#f0f5ff;color:var(--blue);font-size:22px;margin-bottom:20px}.card h3{font-size:21px;letter-spacing:-.04em;margin:0 0 8px}.card p{font-size:15px;color:var(--muted);margin:0}
+.dark-section{background:#101114;color:#f5f5f7}.dark-section .section-head p{color:#a1a1a6}.dark-section .kicker{color:#7eb4ff}
+.timeline{max-width:850px;margin:auto;position:relative}.timeline:before{content:"";position:absolute;left:12px;top:10px;bottom:10px;width:1px;background:#d5d5d9}
+.role{position:relative;padding:0 0 34px 45px}.role:last-child{padding-bottom:0}.dot{position:absolute;left:5px;top:7px;width:15px;height:15px;background:var(--blue);border:3px solid #f5f5f7;border-radius:50%;box-shadow:0 0 0 2px #c6dfff}
+.role h3{font-size:23px;letter-spacing:-.04em;margin:0}.company{font-size:16px;color:var(--muted);margin:2px 0 12px}.role ul{margin:0;padding-left:20px;color:#4c4c50}.role li{padding:3px 0}
+.experience-note{background:#f5f5f7;border-radius:16px;padding:17px 20px;margin-top:12px;color:#45454a;font-size:14px}
+.skill-cloud{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:900px;margin:auto}.pill{padding:10px 15px;background:#fff;border:1px solid #e5e5e8;border-radius:999px;font-size:14px;color:#3a3a3c}
+.education{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:850px;margin:auto}.edu{background:#fff;border-radius:22px;padding:26px}.edu .symbol{font-size:24px;margin-bottom:15px}.edu h3{font-size:19px;line-height:1.25;margin:0 0 8px}.edu p{color:var(--muted);font-size:15px;margin:0}
+.contact{background:linear-gradient(145deg,#e8f1ff,#f5f5f7 55%,#fff);text-align:center;padding:88px 0}.contact h2{font-size:clamp(40px,7vw,72px);line-height:1;letter-spacing:-.07em;margin:14px auto 20px;max-width:800px}.contact p{font-size:19px;color:#626267;max-width:650px;margin:0 auto 28px}
+.contact-links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:22px;font-size:15px}
+footer{padding:25px 24px;text-align:center;color:#86868b;font-size:12px;background:#f5f5f7}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:760px){.nav-inner{padding:0 17px}.nav-links{gap:13px;font-size:11px}.nav-links a:nth-child(2){display:none}.wrap{width:min(100% - 34px,var(--max))}.hero{padding:75px 0 60px}.hero-panel{padding:27px 23px;border-radius:22px}.stats{grid-template-columns:1fr;gap:9px}.stat{padding:13px 15px}.grid{grid-template-columns:1fr}.education{grid-template-columns:1fr}section{padding:60px 0}.card{padding:23px}.section-head{margin-bottom:28px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">Kushwanth R<span style="color:#06c">.</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Product Manager · AI & Digital Transformation</div>
+      <h1>Turning complex problems into <span>meaningful products.</span></h1>
+      <p class="lede">I connect customer needs, business strategy and technology to shape digital experiences that create measurable value.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#experience">Explore my experience <span aria-hidden="true" style="margin-left:8px">↗</span></a>
+        <a class="btn secondary" href="#contact">Let’s connect</a>
+      </div>
+      <div class="hero-panel">
+        <div class="panel-top">A little about how I work</div>
+        <h2>Customer-first thinking.<br>Strategic product execution.</h2>
+        <p>Product discovery, roadmap planning, stakeholder collaboration and Agile delivery—bringing people and technology together to turn ideas into scalable solutions.</p>
+        <div class="stats">
+          <div class="stat"><strong>14+ years</strong><span>Across technology, banking & product delivery</span></div>
+          <div class="stat"><strong>AI + Digital</strong><span>Strategy, innovation and transformation</span></div>
+          <div class="stat"><strong>End to end</strong><span>Discovery, delivery and continuous improvement</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">About me</div><h2>Build for people.<br>Deliver business value.</h2><p>I’m a product enthusiast focused on customer-centric digital products, thoughtful strategy and execution grounded in data, research and collaboration.</p></div>
+      <div class="grid">
+        <article class="card reveal"><div class="icon">◎</div><h3>Customer empathy</h3><p>I believe great products start with understanding real customer problems through user empathy, research and analytics.</p></article>
+        <article class="card reveal"><div class="icon">↗</div><h3>Product strategy</h3><p>I translate business and user needs into product vision, roadmaps, prioritized features and clear outcomes.</p></article>
+        <article class="card reveal"><div class="icon">✳</div><h3>Collaborative delivery</h3><p>I work across business, design and technology teams to align stakeholders and continuously improve product quality.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="dark-section">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Career journey</div><h2>Experience that connects<br>business and technology.</h2><p>Progressing from IT operations and business analysis into Agile leadership and product management.</p></div>
+      <div class="timeline">
+        <article class="role reveal"><span class="dot"></span><h3>Product Manager (Business Consultant)</h3><div class="company">Tech Mahindra · April 2025 – Present</div><ul><li>Lead product discovery and translate business and user needs into prioritized requirements, roadmap initiatives and measurable outcomes.</li><li>Drive product vision, strategy and roadmap execution for digital transformation.</li><li>Use analytics and customer insights to inform decisions and improve outcomes.</li><li>Manage the product lifecycle from ideation through launch and continuous improvement.</li><li>Align executive stakeholders and cross-functional teams around strategic objectives.</li></ul></article>
+        <article class="role reveal"><span class="dot"></span><h3>Scrum Master</h3><div class="company">Tech Mahindra · October 2023 – March 2026</div><ul><li>Enabled high-performing, self-organizing Agile teams and supported Agile transformation.</li><li>Strengthened stakeholder engagement and cross-functional collaboration.</li><li>Removed delivery roadblocks and optimized Agile processes to accelerate delivery.</li><li>Promoted servant leadership, continuous improvement and accountability.</li></ul></article>
+        <article class="role reveal"><span class="dot"></span><h3>Tech Lead – Senior Business Analyst</h3><div class="company">Tech Mahindra · June 2022 – September 2023</div><ul><li>Partnered with business and technology stakeholders on requirements analysis and process optimization.</li><li>Led digital transformation initiatives focused on scalable solutions and operational efficiency.</li><li>Applied strategic collaboration and problem-solving to improve business performance.</li></ul></article>
+        <article class="role reveal"><span class="dot"></span><h3>Business Analyst</h3><div class="company">Karur Vysya Bank (KVB) · April 2018 – June 2022</div><ul><li>Drove banking technology and digital transformation initiatives to enhance customer experiences.</li><li>Translated complex business needs into effective technology solutions and more efficient processes.</li><li>Collaborated with stakeholders to align delivery and achieve measurable business value.</li></ul></article>
+        <article class="role reveal"><span class="dot"></span><h3>IT/Ops Manager & Alternate Channel Manager</h3><div class="company">Karur Vysya Bank (KVB) · June 2012 – March 2018</div><ul><li>Managed IT operations and technology solutions supporting digital transformation.</li><li>Conducted IT audits to support compliance and operational efficiency.</li><li>Developed data visualization tools and mobile applications to improve banking services.</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertise">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">What I bring</div><h2>Strategy, craft and execution.</h2><p>A blend of product thinking, business analysis, Agile leadership and technology delivery.</p></div>
+      <div class="skill-cloud reveal">
+        <span class="pill">Product Management</span><span class="pill">AI Product Strategy</span><span class="pill">Product Vision</span><span class="pill">Roadmap Planning</span><span class="pill">Product Discovery</span><span class="pill">Feature Prioritization</span><span class="pill">User Research</span><span class="pill">Customer Empathy</span><span class="pill">Analytics-led Decisions</span><span class="pill">Stakeholder Collaboration</span><span class="pill">Cross-functional Leadership</span><span class="pill">Agile Product Development</span><span class="pill">SAFe & Scrum</span><span class="pill">SDLC Delivery</span><span class="pill">Digital Transformation</span><span class="pill">Solution Design</span><span class="pill">Business Analysis</span><span class="pill">Executive Communication</span><span class="pill">Problem Solving</span><span class="pill">B2B Enterprise SaaS</span><span class="pill">B2C Products</span>
+      </div>
+      <div style="text-align:center;margin-top:38px" class="reveal"><p style="color:var(--muted);font-size:14px;margin-bottom:13px">Certifications & professional learning</p><div class="skill-cloud"><span class="pill">Professional Scrum Product Owner (PSPO)</span><span class="pill">Scrum / Agile</span><span class="pill">Certified Agile Leadership</span><span class="pill">IT Project Management</span><span class="pill">Creative Problem Solving</span><span class="pill">Successful Career Development</span><span class="pill">CCBA® (IIBA®)</span></div></div>
+    </div>
+  </section>
+
+  <section id="education" style="background:#fff">
+    <div class="wrap">
+      <div class="section-head reveal"><div class="kicker">Education</div><h2>Business perspective.<br>Technical foundation.</h2><p>Combining business education with an engineering background.</p></div>
+      <div class="education">
+        <article class="edu reveal"><div class="symbol">◈</div><h3>Master of Business Administration (MBA)</h3><p>Chaitanya Bharathi Institute of Technology<br>Marketing Management, General & Human Resources</p></article>
+        <article class="edu reveal"><div class="symbol">⌘</div><h3>Bachelor of Technology (B.Tech)</h3><p>Pondicherry Engineering College<br>Information Technology</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap reveal">
+      <div class="kicker">Let’s build what’s next</div>
+      <h2>Have a product challenge in mind?</h2>
+      <p>I’m always happy to connect about product management, AI-driven innovation, digital transformation and customer experience.</p>
+      <a class="btn primary" href="mailto:kushwanth003@gmail.com">Get in touch <span aria-hidden="true" style="margin-left:8px">↗</span></a>
+      <div class="contact-links">
+        <a href="mailto:kushwanth003@gmail.com">kushwanth003@gmail.com</a>
+        <a href="tel:+916301445212">+91 6301445212</a>
+        <a href="https://www.linkedin.com/in/kushwanth-rambe" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>© <span id="year"></span> Kushwanth R · Designed with clarity and purpose.</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const observer = ('IntersectionObserver' in window) ? new IntersectionObserver(entries => {
+  entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+},{threshold:.12}) : null;
+document.querySelectorAll('.reveal').forEach(el => observer ? observer.observe(el) : el.classList.add('visible'));
+</script>
+</body>
+</html>
